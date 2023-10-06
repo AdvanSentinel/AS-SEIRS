@@ -1,12 +1,12 @@
 # AS-SEIRS
 SEIRS Model source code
 # Description
-This model takes WW and Case data as input data for calibration of the model.
-Estimated WW and Case are then compared with the measurment and corrected using Kalman filter.
+This model takes viral load in wastewater and clinical case data as input data for calibration of the model.
+Estimated wastewater and Case are then compared with the measurment and corrected using Kalman filter.
 # How to use
 Use main-for-paper.ipynb for data analysis.
 ## Input data
-Clinical case and wastewater RNA concentration
+Clinical case and virus concentration in wastewater
 ## Output data
 Pdf of 
 * effective reproduction number
