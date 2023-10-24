@@ -1,0 +1,10 @@
+﻿val,type,Kyoto (COPMAN),City-A(EPISENS),Kanagawa(EPISENS),Kanagawa(COPMAN)
+1,latent period(1/α),205.558,20.689,215.61,591.627
+1.5,latent period(1/α),193.363,21.953,184.893,534.026
+2,latent period(1/α),208.092,14.836,202.076,523.752
+1,Infectious period(1/τ),294.446,19.625,199.03,338.394
+2,Infectious period(1/τ),193.363,21.953,184.893,534.026
+3,Infectious period(1/τ),231.718,30.035,212.405,562.392
+90,Immunity duration(ω),200.928,17.675,177.129,558.199
+180,Immunity duration(ω),193.363,21.953,184.893,534.026
+270,Immunity duration(ω),192.64,16.475,184.197,521.154

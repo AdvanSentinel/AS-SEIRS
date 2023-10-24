@@ -27,8 +27,8 @@ def SEIRWWcalibrate(YC, YW, C, params, S_init):
     params['Q_beta1'] = 0.005**2
     """
     # Estimate the initial sizes of E and I compartments
-    params['E_init'] = params['darkNumber'][0,0] / params['alpha'] * (1 + np.mean(YC[0:5]))
-    params['I_init'] = params['darkNumber'][0,0] / params['tau'] * (1 + np.mean(YC[0:5]))
+    params['E_init'] = params['reporting rate'][0,0] / params['alpha'] * (1 + np.mean(YC[0:5]))
+    params['I_init'] = params['reporting rate'][0,0] / params['tau'] * (1 + np.mean(YC[0:5]))
 
     params['varE_init'] = (params['E_init'] / 2)**2
     params['varI_init'] = (params['I_init'] / 2)**2
