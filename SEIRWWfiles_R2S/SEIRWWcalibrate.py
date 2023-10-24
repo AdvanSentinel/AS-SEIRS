@@ -6,7 +6,7 @@ from scipy.optimize import minimize, BFGS, LinearConstraint
 from SEIRWWfiles_R2S.paramFit import paramFit
 
 def SEIRWWcalibrate(YC, YW, C, params, S_init):
-
+    """
     # Rate E -> I
     #params['alpha'] = 0.4433
     params['alpha'] = 1/1.5 #20230412 Changed to 1.5
@@ -25,7 +25,7 @@ def SEIRWWcalibrate(YC, YW, C, params, S_init):
     params['Q_beta0'] = 0.05**2
     # After 1st month
     params['Q_beta1'] = 0.005**2
-
+    """
     # Estimate the initial sizes of E and I compartments
     params['E_init'] = params['darkNumber'][0,0] / params['alpha'] * (1 + np.mean(YC[0:5]))
     params['I_init'] = params['darkNumber'][0,0] / params['tau'] * (1 + np.mean(YC[0:5]))
