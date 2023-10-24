@@ -5,6 +5,7 @@ This model takes viral load in wastewater and clinical case data as input data f
 Estimated wastewater and Case are then compared with the measurment and corrected using Kalman filter.
 # How to use
 Use main-for-paper.ipynb for data analysis.
+Use main-for-paper-scan.ipynb for scanning size of timing window for calibration
 ## Input data
 Clinical case and virus concentration in wastewater
 ## Output data
