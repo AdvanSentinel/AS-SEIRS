@@ -13,3 +13,10 @@ Pdf of
 * effective reproduction number
 * estimation of case data using only
 * 1-week prediction 
+# Notice
+This program is a derivative of "Model-based assessment of COVID-19 epidemic dynamics by wastewater analysis" by Proverbio et al. (2022), which was under the Apache License 2.0. You can find the original source code at https://gitlab.lcsb.uni.lu/SCG/cowwan. This Program is also released under the Apache License 2.0.
+## Modifications and Additions
+In the process of translating the code from MATLAB to Python, several modifications and additions have been made. Here are some notable changes:
+* Modification #1: Defined reinfection.
+* Addition #1: Added cenario projections that increasing vaccination coverage and reducing contact rates.
+Please note that this is an independent project and has not been endorsed by the original creators.
