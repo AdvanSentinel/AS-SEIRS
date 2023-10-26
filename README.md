@@ -19,4 +19,5 @@ This program is a derivative of "Model-based assessment of COVID-19 epidemic dyn
 In the process of translating the code from MATLAB to Python, several modifications and additions have been made. Here are some notable changes:
 * Modification #1: Defined reinfection.
 * Addition #1: Added cenario projections that increasing vaccination coverage and reducing contact rates.
+
 Please note that this is an independent project and has not been endorsed by the original creators.
